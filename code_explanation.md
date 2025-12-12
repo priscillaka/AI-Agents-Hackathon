@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This is a web-based AI Expense Assistant, built for a hackathon. Users interact via a chat interface to ask questions about expense policies (e.g., meal limits, travel costs), powered by an Azure AI agent.
+This is a web-based DFW chatbox, built for a hackathon. Users interact via a chat interface to ask questions about expense policies (e.g., meal limits, travel costs), powered by an Azure AI agent.
 
 ---
 

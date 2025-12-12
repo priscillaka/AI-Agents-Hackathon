@@ -7,7 +7,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@ body {
 
 /* Header Styles */
 .chat-header {
-    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
     color: white;
     padding: 20px;
     border-radius: 16px 16px 0 0;
@@ -75,7 +75,7 @@ body {
     content: '';
     width: 8px;
     height: 8px;
-    background: #10b981;
+    background: #fb923c;
     border-radius: 50%;
     animation: pulse 2s infinite;
 }
@@ -127,12 +127,12 @@ body {
 }
 
 .agent-message .message-avatar {
-    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
     color: white;
 }
 
 .user-message .message-avatar {
-    background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+    background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
     color: white;
 }
 
@@ -146,7 +146,7 @@ body {
 }
 
 .user-message .message-content {
-    background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+    background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
     color: white;
     margin-left: auto;
     max-width: 80%;
@@ -191,13 +191,13 @@ body {
 }
 
 #messageInput:focus {
-    border-color: #4f46e5;
+    border-color: #f97316;
 }
 
 .send-btn {
     width: 48px;
     height: 48px;
-    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
     border: none;
     border-radius: 12px;
     color: white;
@@ -211,7 +211,7 @@ body {
 
 .send-btn:hover:not(:disabled) {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
+    box-shadow: 0 4px 12px rgba(249, 115, 22, 0.4);
 }
 
 .send-btn:disabled {
